@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  width: 100vw;
+  height: 100vh;
+}
+
+.container div {
+  width: 100%;
+  height: 100%;
+}
+
+.red { background: red; }
+.blue { background: blue; }
+.green { background: green; }
+.yellow { background: yellow; }
+.purple { background: purple; }
